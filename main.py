@@ -17,4 +17,5 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 if __name__ == '__main__':
     # must have to specify the post address to get the server response
+    print("main docker")
     uvicorn.run(app, port=8000, host="0.0.0.0")
